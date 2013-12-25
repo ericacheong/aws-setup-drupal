@@ -6,6 +6,9 @@
 sudo apt-get install -y git
 sudo apt-get install -y curl
 
+# install zip and unzip
+sudo apt-get install -y zip unzip
+
 sudo apt-get update 
 sudo apt-get -y upgrade
 
