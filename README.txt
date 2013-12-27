@@ -10,5 +10,6 @@ This setup file will install the follow software:
 	- Drupal
 	- MySQL
 	- phpMyAdmin
+	- zip, unzip
 
 and update the server to latest Ubuntu channels and software. 
