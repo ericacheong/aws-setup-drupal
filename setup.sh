@@ -16,7 +16,7 @@ sudo apt-get -y upgrade
 sudo apt-get install -y apache2
 
 # Install php
-sudo apt-get install -y libapache2-mod-php5 php5-gd php5-intl
+sudo apt-get install -y libapache2-mod-php5 php5-gd php5-intl php5 php5-dev
 
 sudo service apache2 restart
 
