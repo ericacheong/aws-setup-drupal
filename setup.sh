@@ -26,6 +26,9 @@ sudo apt-get install -y mysql-server libapache2-mod-auth-mysql php5-mysql
 # Install phpmyadmin
 sudo apt-get install -y phpmyadmin
 
+# Setup phpmyadin
+sudo sed -i "\$aInclude /etc/phpmyadmin/apache.conf" /etc/apache2/apache2.conf
+
 # Download Drupal v7.
 cd /var/www
 sudo wget http://ftp.drupal.org/files/projects/drupal-7.24.tar.gz
