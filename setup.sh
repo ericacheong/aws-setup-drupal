@@ -31,9 +31,9 @@ sudo sed -i "\$aInclude /etc/phpmyadmin/apache.conf" /etc/apache2/apache2.conf
 
 # Download Drupal v7.
 cd /var/www
-sudo wget http://ftp.drupal.org/files/projects/drupal-7.24.tar.gz
-sudo tar zxvf drupal-7.24.tar.gz
-sudo mv drupal-7.24 d7
+sudo wget http://ftp.drupal.org/files/projects/drupal-7.26.tar.gz
+sudo tar zxvf drupal-7.26.tar.gz
+sudo mv drupal-7.26 d7
 
 # Set up file system
 sudo mkdir /var/www/d7/sites/default/files
