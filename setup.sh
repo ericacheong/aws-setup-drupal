@@ -20,6 +20,10 @@ sudo apt-get install -y libapache2-mod-php5 php5-gd php5-intl php5 php5-dev
 
 sudo service apache2 restart
 
+# Enable rewrite module
+sudo a2enmod rewrite
+sudo service apache2 restart
+
 # Install mysql
 sudo apt-get install -y mysql-server libapache2-mod-auth-mysql php5-mysql
 
@@ -99,6 +103,8 @@ sudo sed -i 's/STARTERKIT/pilgrim/' template.php
 sudo sed -i 's/STARTERKIT/pilgrim/' theme-settings.php
 sudo echo "Zen sub-theme Pilgrim installed."
 
+
 # Set up complete
 sudo echo "Set up completed!"
 sudo echo "You can now create MySQL database and set up Drupal."
+sudo echo "Copy content from 'd7' to '/etc/apache2/sites-available/default' to enable clean url."
