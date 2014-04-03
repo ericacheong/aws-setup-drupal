@@ -81,6 +81,14 @@ sudo tar zxvf wysiwyg-7.x-2.2.tar.gz
 sudo wget http://ftp.drupal.org/files/projects/google_analytics-7.x-1.4.tar.gz
 sudo tar zxvf google_analytics-7.x-1.4.tar.gz
 
+sudo wget http://ftp.drupal.org/files/projects/fontyourface-7.x-2.8.tar.gz
+sudo tar zxvf fontyourface-7.x-2.8.tar.gz 
+
+sudo wget http://ftp.drupal.org/files/projects/nice_menus-7.x-2.5.tar.gz
+sudo tar zxvf nice_menus-7.x-2.5.tar.gz
+
+
+
 # Potential candidates to be added into standard package
 # XML sitemap, Rules, CAPTCHA
 
