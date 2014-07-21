@@ -114,5 +114,8 @@ sudo echo "Zen sub-theme Pilgrim installed."
 
 # Set up complete
 sudo echo "Set up completed!"
+## Need specific instructions to create mysql db and set up drupal
 sudo echo "You can now create MySQL database and set up Drupal."
+## TODO: What is 'd7' content? Where in 'D7'?
+## Need specific instructions to enable clean url
 sudo echo "Copy content from 'd7' to '/etc/apache2/sites-available/default' to enable clean url."
